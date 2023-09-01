@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mahasiswa_home"
+        android:title="Home"
+        android:icon="@drawable/ic_round_home"/>
+
+<!--    <item-->
+<!--        android:id="@+id/mahasiswa_jadwal"-->
+<!--        android:title="Jadwal"-->
+<!--        android:icon="@drawable/ic_round_calendar_month"-->
+<!--        />-->
+
+    <item
+        android:title=""/>
+
+<!--    <item-->
+<!--        android:id="@+id/mahasiswa_notification"-->
+<!--        android:title="Notification"-->
+<!--        android:icon="@drawable/ic_round_notifications" />-->
+    <item
+        android:id="@+id/mahasiswa_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_round_account_circle" />
+
+</menu>

@@ -1,0 +1,31 @@
+<!-- res/layout/dialog_nfc_tap.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- NFC Tap Logo -->
+    <ImageView
+        android:id="@+id/imageViewNfcTap"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_round_nfc"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="NFC Tap Logo" />
+
+    <!-- NFC Tap Message -->
+    <TextView
+        android:id="@+id/textViewNfcTap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+</LinearLayout>

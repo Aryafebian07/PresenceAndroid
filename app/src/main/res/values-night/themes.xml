@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TugasAkhir" parent="Theme.MaterialComponents.DayNight.NoActionBar" >
+        <!-- Customize your light theme here. -->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryDark">@color/PrimaryDark</item>
+        <item name="colorAccent">@color/Accent</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.TugasAkhir" parent="Base.Theme.TugasAkhir" />
+</resources>
